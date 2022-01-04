@@ -11,16 +11,12 @@ This repo contains opinionated versions of the Laravel stubs. The most notable c
 - use return type hints where possible
 - most docblocks have been removed
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
-
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require spatie/laravel-stubs --dev
+composer require clickbar/laravel-stubs --dev
 ```
 
 If you want to keep your stubs up to date with every update, add this composer hook to your composer.json file:
@@ -28,7 +24,7 @@ If you want to keep your stubs up to date with every update, add this composer h
 ```json
 "scripts": {
     "post-update-cmd": [
-        "@php artisan spatie-stub:publish --force"
+        "@php artisan clickbar-stub:publish --force"
     ]
 }
 ```
@@ -38,7 +34,7 @@ If you want to keep your stubs up to date with every update, add this composer h
 You can publish the stubs using this command:
 
 ```bash
-php artisan spatie-stub:publish
+php artisan clickbar-stub:publish
 ```
 
 ## Testing
@@ -57,11 +53,12 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover any security related issues, please email freek@spatie.be instead of using the issue tracker.
+If you discover any security related issues, please email avs@clickbar.dev instead of using the issue tracker.
 
 ## Credits
 
 - [Freek Van der Herten](https://github.com/freekmurze)
+- [Alexander von Studnitz](https://github.com/studnitz)
 - [All Contributors](../../contributors)
 
 ## License
