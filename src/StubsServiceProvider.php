@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Stubs;
+namespace Clickbar\Stubs;
 
 use Illuminate\Support\ServiceProvider;
 
