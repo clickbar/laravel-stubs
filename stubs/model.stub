@@ -11,4 +11,9 @@ class {{ class }} extends Model
     use HasFactory;
 
     public $guarded = [];
+
+    public $casts = [
+        'created_at' => 'immutable_datetime',
+        'updated_at' => 'immutable_datetime',
+    ];
 }
