@@ -4,7 +4,7 @@ namespace {{ namespace }};
 
 use {{ rootNamespace }}Http\Controllers\Controller;
 use {{ namespacedModel }};
-use Illuminate\Http\Request;
+use {{ namespacedRequests }}
 
 class {{ class }} extends Controller
 {
@@ -12,7 +12,7 @@ class {{ class }} extends Controller
     {
     }
 
-    public function store(Request $request)
+    public function store({{ storeRequest }} $request)
     {
     }
 
@@ -20,7 +20,7 @@ class {{ class }} extends Controller
     {
     }
 
-    public function update(Request $request, {{ model }} ${{ modelVariable }})
+    public function update({{ updateRequest }} $request, {{ model }} ${{ modelVariable }})
     {
     }
 
