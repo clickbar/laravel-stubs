@@ -16,7 +16,7 @@ class {{ class }} extends Controller
     {
     }
 
-    public function store({{ storeRequest }})
+    public function store({{ storeRequest }} $request)
     {
     }
 
@@ -28,7 +28,7 @@ class {{ class }} extends Controller
     {
     }
 
-    public function update({{ updateRequest }}, {{ model }} ${{ modelVariable }})
+    public function update({{ updateRequest }} $request, {{ model }} ${{ modelVariable }})
     {
     }
 
