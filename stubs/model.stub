@@ -10,9 +10,9 @@ class {{ class }} extends Model
 {
     use HasFactory;
 
-    public $guarded = [];
+    protected $guarded = [];
 
-    public $casts = [
+    protected $casts = [
         'created_at' => 'immutable_datetime',
         'updated_at' => 'immutable_datetime',
     ];
