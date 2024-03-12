@@ -2,6 +2,103 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## 3.0.0 - 2024-03-08
+
+### What's Changed
+
+* Add L11 stubs
+* Simplify request and factory by @mokhosh in https://github.com/spatie/laravel-stubs/pull/32
+
+## 2.5.4 - 2024-02-14
+
+### What's Changed
+
+* remove unnecessary dockblocks by @mokhosh in https://github.com/spatie/laravel-stubs/pull/28
+* add laravel 11 support by @mokhosh in https://github.com/spatie/laravel-stubs/pull/29
+
+### New Contributors
+
+* @mokhosh made their first contribution in https://github.com/spatie/laravel-stubs/pull/28
+
+**Full Changelog**: https://github.com/spatie/laravel-stubs/compare/2.5.3...2.5.4
+
+## 2.5.3 - 2023-12-21
+
+### What's Changed
+
+* Update rule stub by @Carnicero90 in https://github.com/spatie/laravel-stubs/pull/27
+
+### New Contributors
+
+* @Carnicero90 made their first contribution in https://github.com/spatie/laravel-stubs/pull/27
+
+**Full Changelog**: https://github.com/spatie/laravel-stubs/compare/2.5.2...2.5.3
+
+## 2.5.2 - 2023-01-23
+
+- support L10
+
+## 2.5.1 - 2023-01-15
+
+### What's Changed
+
+- Polish stubs (by @freekmurze)
+- Convert all tests to pest by @alexmanase in https://github.com/spatie/laravel-stubs/pull/26
+
+### New Contributors
+
+- @alexmanase made their first contribution in https://github.com/spatie/laravel-stubs/pull/26
+
+**Full Changelog**: https://github.com/spatie/laravel-stubs/compare/2.5.0...2.5.1
+
+## 2.5.0 - 2022-09-14
+
+- use invokable rule by default
+
+## 2.4.4 - 2022-07-29
+
+### What's Changed
+
+- Updated factory stub to use generics by @Xammie in https://github.com/spatie/laravel-stubs/pull/21
+
+**Full Changelog**: https://github.com/spatie/laravel-stubs/compare/2.4.3...2.4.4
+
+## 2.4.3 - 2022-02-09
+
+## What's Changed
+
+- Add event stub by @geidelguerra in https://github.com/spatie/laravel-stubs/pull/19
+
+**Full Changelog**: https://github.com/spatie/laravel-stubs/compare/2.4.2...2.4.3
+
+## 2.4.2 - 2022-02-07
+
+## What's Changed
+
+- Remove docblock from policy method by @Xammie in https://github.com/spatie/laravel-stubs/pull/18
+
+## New Contributors
+
+- @Xammie made their first contribution in https://github.com/spatie/laravel-stubs/pull/18
+
+**Full Changelog**: https://github.com/spatie/laravel-stubs/compare/2.4.1...2.4.2
+
+## 2.4.1 - 2022-02-03
+
+## What's Changed
+
+- Move orchestra/testbench to dev dependencies by @geidelguerra in https://github.com/spatie/laravel-stubs/pull/17
+
+## New Contributors
+
+- @geidelguerra made their first contribution in https://github.com/spatie/laravel-stubs/pull/17
+
+**Full Changelog**: https://github.com/spatie/laravel-stubs/compare/2.4.0...2.4.1
+
+## 2.4.0 - 2022-01-14
+
+- support Laravel 9
+
 ## 2.3.1 - 2021-12-01
 
 ## What's Changed

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Stubs\Tests;
+namespace Clickbar\Stubs\Tests;
 
+use Clickbar\Stubs\StubsServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Stubs\StubsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
