@@ -2,6 +2,11 @@
 
 All notable changes to `laravel-stubs` will be documented in this file
 
+## 4.0.0 - 2024-03-12
+
+- Support Laravel 11
+- Update stubs
+
 ## 3.0.0 - 2024-03-08
 
 ### What's Changed
